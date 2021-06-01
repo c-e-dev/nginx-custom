@@ -2,7 +2,7 @@
 
 ./configure \
 --add-module=modules/nginx-sla \
---prefix=/usr/share/nginx \
+--prefix=/usr \
 --conf-path=/etc/nginx/nginx.conf \
 --http-log-path=/var/log/nginx/access.log \
 --error-log-path=/var/log/nginx/error.log \
@@ -17,3 +17,8 @@
 
 make
 make install
+
+sleep 1
+
+#https://www.nginx.com/resources/wiki/start/topics/examples/systemd/
+cp nginx.service /lib/systemd/system/nginx.service
