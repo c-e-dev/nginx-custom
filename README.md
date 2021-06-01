@@ -1,3 +1,8 @@
-# nginx-custom
-nginx 1.21 + nginx_sla
-Взято от сюда https://github.com/goldenclone/nginx-sla
+### Nginx Custom
+
+- Основано на исходниках Nginx 
+- Подключены дополнительные модули
+
+
+###LINKs
+https://github.com/goldenclone/nginx-sla
