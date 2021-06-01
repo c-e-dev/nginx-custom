@@ -1,0 +1,3 @@
+[submodule "modules/nginx-sla"]
+	path = modules/nginx-sla
+	url = git://github.com/abbat/nginx-sla.git
